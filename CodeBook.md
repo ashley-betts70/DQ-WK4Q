@@ -1,6 +1,6 @@
-# Summarised [Human Activity Recognition](http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones) dataset.
+# Summarised Human Activity Recognition dataset.
 
-This dataset is based on the Human Activity Recognition dataset.  
+This dataset is based on the [Human Activity Recognition](http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones) dataset.  
 Only features from the base dataset that matched the pattern "(-mean\\(|-std\\()" were captured in this new dataset.  
 All values are means of the original raw data summarised by Activity and Subject.  
 
