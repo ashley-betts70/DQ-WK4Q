@@ -6,7 +6,7 @@ All values are means of the original raw data summarised by Activity and Subject
 
 The following is an excerpt taken from the base dataset describing the features contained in the new summarised dataset. In addition to the features described below there are also the two summarising columns Activity and Subject. Activity can be one of WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING. Subject is an identifier representing an anonymous subject that was observed.
 
-##Feature Selection 
+## Feature Selection 
 
 The features selected for this database come from the accelerometer and gyroscope 3-axial raw signals tAcc-XYZ and tGyro-XYZ. These time domain signals (prefix 't' to denote time) were captured at a constant rate of 50 Hz. Then they were filtered using a median filter and a 3rd order low pass Butterworth filter with a corner frequency of 20 Hz to remove noise. Similarly, the acceleration signal was then separated into body and gravity acceleration signals (tBodyAcc-XYZ and tGravityAcc-XYZ) using another low pass Butterworth filter with a corner frequency of 0.3 Hz. 
 
