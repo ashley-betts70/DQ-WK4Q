@@ -1,8 +1,8 @@
 # Summarised Human Activity Recognition dataset.
 
-This dataset is based on the Human Activity Recognition dataset.
-Only features from the base dataset that matched the pattern "(-mean\\(|-std\\()" were captured in this new dataset.
-All values are means of the original raw data summarised by Activity and Subject. 
+This dataset is based on the Human Activity Recognition dataset.  
+Only features from the base dataset that matched the pattern "(-mean\\(|-std\\()" were captured in this new dataset.  
+All values are means of the original raw data summarised by Activity and Subject.  
 
 The following is an excerpt taken from the base dataset describing the features contained in the new summarised dataset. In addition to the features described below there are also the two summarising columns Activity and Subject. Activity can be one of WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING. Subject is an identifier representing an anonymous subject that was observed.
 
