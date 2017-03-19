@@ -23,6 +23,7 @@ combine.data.sets <- function(base.dir,name.of.set) {
   subject_ds <- read.table(paste(dir.name,"/",gsub("set",name.of.set,"subject_set.txt"),sep=""))
   feature_ds <- read.table(paste(dir.name,"/",gsub("set",name.of.set,"X_set.txt"),sep=""))
   activity_ds <- read.table(paste(dir.name,"/",gsub("set",name.of.set,"y_set.txt"),sep=""))
+  
   activity_map <- activitynames_ds$V2
   names(activity_map) <- activitynames_ds$V1
   activity_ds$V1 <- activity_map[activity_ds$V1]
