@@ -9,7 +9,7 @@ A brief description of these functions folllows:
 `build.base.data.set` is a wrapper function to supply directory name and reconstruct the data from both the train and test datasets.  
 `combine.data.sets` takes base directory name and name of dataset to combine (test or train)  
 
-To build the new summarising data set you can use:
+To build the new summarising data set you can use:  
 `new_ds <- build.new.data.set()`  
 or if the base dataset is not in the defaulted directory or "UCI HAR Dataset":  
 `new_ds <- build.new.data.set("Other subdirectory")`
