@@ -5,7 +5,7 @@ The function to perform the summarising analysis can be found in `run_analysis.R
 
 A brief description of these functions folllows:
 
-`build.new.data.set` is the primary function to build the new dataset which is the mean of each feature summarised by Activity and Subject. By default it will search for the base dataset in a subdirectory "UCI HAR Dataset". This can be overridden using the base.dir parameter.
+`build.new.data.set` is the primary function to build the new dataset which is the mean of each feature summarised by Activity and Subject. By default it will search for the base dataset in a subdirectory "UCI HAR Dataset". This can be overridden using the base.dir parameter.  
 `build.base.data.set` is a wrapper function to supply directory name and reconstruct the data from both the train and test datasets.  
 `combine.data.sets` takes base directory name and name of dataset to combine (test or train)  
 
